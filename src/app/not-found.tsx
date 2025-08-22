@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function NotFound({}: Props) {
   return (
-    <div className="flex gap-4 flex-col items-center justify-center">
+    <div className="flex gap-4 w-full h-screen flex-col items-center justify-center">
       <h1 className="text-8xl font-bold">404</h1>
       <p className="text-3xl">Страница не найдена.</p>
       <Button
